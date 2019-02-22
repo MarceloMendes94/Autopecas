@@ -18,4 +18,4 @@ Sendo assim nosso cliente gostaria de expor seus produtos em um site e vende-los
 Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas fora do seu estabelecimento(cartão de crédito e boleto bancário) e com a estratégia de reduzir mais o custo operacional de sua empresa.
 
 ## Diagrama de classe
-![Diagrama de classe]()
+![Diagrama de classe](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/DC_img.png)
