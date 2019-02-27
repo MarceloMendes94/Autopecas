@@ -28,22 +28,22 @@ Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas for
 
 ## Ciclo de Desenvolvimento de software
 
-## Levantamento de requisitos
+### Levantamento de requisitos
 
-## Análise
+### Análise
 
-### Diagrama de classe
+#### Diagrama de classe
 
 ![Diagrama de classe](analise/diagramaClasses.png)
 
 
-## Projeto
+### Projeto
 
-## Implementação
+### Implementação
 
-## Testes
+### Testes
 
-## Implantação
+### Implantação
 
 
 ### Canvas do projeto

@@ -3,5 +3,15 @@
 ## Entregas
 ![Cronograma de entregas](entregasPoo2.jpg)
 
-## Canvas do projeto
-![Canvas](projectModelCanvas.jpg)
+### Primeira entrega 
+![p]()
+
+### Segunda entrega 
+![p]()
+
+### Terceira entrega 
+![p]()
+
+### Quarta entrega 
+![p]()
+
