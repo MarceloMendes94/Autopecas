@@ -9,7 +9,7 @@
 
 ## Minimundo 
 
-Nosso clinete Alan entrou em contato com a necessidade de um e-comerce para sua loja de ..., em conversa ele relatou:  os clientes tem problema não saber a existêcia de produtos da  loja, com isso perde vendas para seus concorrentes.
+Nosso cliente Alan entrou em contato com a necessidade de um e-comerce para sua loja de ..., em conversa ele relatou:  os clientes tem problema não saber a existêcia de produtos da  loja, com isso perde vendas para seus concorrentes.
 
 A loja perde clientes locais que poderiam comprar na loja para vendedores do mercado livre, por não estar Online, mesmo tendo um preço melhor.
 
