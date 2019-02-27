@@ -36,9 +36,6 @@ Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas for
 
 ![Diagrama de classe](analise/diagramaClasses.png)
 
-### Canvas do projeto
-
-![Canvas](poo2/projectModelCanvas.jpg)
 
 ## Projeto
 
@@ -47,3 +44,8 @@ Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas for
 ## Testes
 
 ## Implantação
+
+
+### Canvas do projeto
+
+![Canvas](poo2/projectModelCanvas.jpg)
