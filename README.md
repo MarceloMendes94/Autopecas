@@ -1,17 +1,20 @@
 # Autopecas
-### disciplinas
-[Programação orientada ao Objeto 2](https://github.com/MarceloMendes94/Autopecas/tree/master/poo2)
-[Projeto de Sistemas]()
-[Banco de dados 2]()
-[Engenarai de software]()
 
-## Membros:
+## disciplinas
+
+- [Programação Orientada a Objeto 2](https://github.com/MarceloMendes94/Autopecas/tree/master/poo2)
+- [Projeto de Sistemas]()
+- [Banco de dados 2]()
+- [Engenharia de software]()
+
+## Membros
+
 1. David Villaça
 2. Douglas Bolis
 3. Ewerson Vieira
 4. Marcelo Mendes
 
-## Minimundo 
+## Minimundo
 
 Nosso cliente Alan entrou em contato com a necessidade de um e-comerce para sua loja de Autopeças, em conversa ele relatou o seguinte:
 
@@ -24,21 +27,23 @@ Sendo assim nosso cliente gostaria de expor seus produtos em um site e vendê-lo
 Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas fora do seu estabelecimento(cartão de crédito e boleto bancário) e com a estratégia de reduzir mais o custo operacional de sua empresa.
 
 ## Ciclo de Desenvolvimento de software
-![img]()
-### levantamento de requisitos
 
-### Análise
+## Levantamento de requisitos
 
-### Projeto
+## Análise
 
-### Implementação
+### Diagrama de classe
 
-### Teste
-
-### Implatação
-
-## Diagrama de classe
 ![Diagrama de classe](analise/diagramaClasses.png)
 
-## Canvas do projeto
-![canvas](poo2/projectModelCanvas.jpg)
+### Canvas do projeto
+
+![Canvas](poo2/projectModelCanvas.jpg)
+
+## Projeto
+
+## Implementação
+
+## Testes
+
+## Implantação

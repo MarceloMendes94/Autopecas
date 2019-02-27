@@ -1,5 +1,7 @@
-# Programação orientada ao Objeto
+# Programação Orientada a Objeto
+
 ## Entregas
-![cronograma de entregas](https://github.com/MarceloMendes94/Autopecas/blob/master/poo2/entregasPoo2.jpg)
+![Cronograma de entregas](entregasPoo2.jpg)
+
 ## Canvas do projeto
-![canvas](poo2/projectModelCanvas.jpg)
+![Canvas](projectModelCanvas.jpg)
