@@ -23,6 +23,20 @@ Sendo assim nosso cliente gostaria de expor seus produtos em um site e vendê-lo
 
 Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas fora do seu estabelecimento(cartão de crédito e boleto bancário) e com a estratégia de reduzir mais o custo operacional de sua empresa.
 
+## Ciclo de Desenvolvimento de software
+![img]()
+### levantamento de requisitos
+
+### Análise
+
+### Projeto
+
+### Implementação
+
+### Teste
+
+### Implatação
+
 ## Diagrama de classe
 ![Diagrama de classe](analise/diagramaClasses.png)
 
