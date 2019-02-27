@@ -21,4 +21,4 @@ Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas for
 ![Diagrama de classe](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/DC_img.png)
 
 ##Canvas do projeto
-![canvas](https://github.com/MarceloMendes94/Autopecas/blob/master/POO2/Project%20model%20canvas.jpg)
+![canvas]()
