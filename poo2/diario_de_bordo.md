@@ -1,6 +1,7 @@
 # Diario de Bordo
 Uma descrição breve das atividades feitas, por quem foi feita e o dia que foi realizada
 <br> 
+
 |atividade|data|
 |---------|----|
 |Elaboração do Git do trabalho com hierarquia de pastas, disciplinas e etc.|26/02/2019|
