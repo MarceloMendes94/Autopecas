@@ -37,8 +37,11 @@ Entre as peças mecânicas a polia tem uma quantidade de sulcos(marcações) e u
 Nosso cliente disse que em tempos de crise o preço baixo tem sido uma solução para manter as vendas, uma estratégia dele seria a venda com retirada na loja, perde vendas não é algo bom ele também gostaria de ampliar suas formas de pagamento para cartão de crédito e boleto bancário.
 Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas de seus produtos.
 <br>
-#### Diagrama de classe
+### Diagrama de classe
 ![Diagrama de classe](analise/diagramaClasses.png)
+
+### Protótipo
+[Protótipo](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/mockup.pdf)<br>
 
 ### Levantamento de requisitos
 
