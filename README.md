@@ -51,6 +51,7 @@ Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas for
 ![Canvas](poo2/projectModelCanvas.jpg)
 
 ### Diario de Bordo
+
 |atividade|data|
 |---------|----|
 |Elaboração do Git do trabalho com hierarquia de pastas, disciplinas e etc.|26/02/2019|
