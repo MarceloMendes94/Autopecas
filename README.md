@@ -49,3 +49,14 @@ Por motivos de segurança o senhor Alan gostaria que as vendas fossem feitas for
 ### Canvas do projeto
 
 ![Canvas](poo2/projectModelCanvas.jpg)
+
+### Diario de Bordo
+|atividade|data|
+|---------|----|
+|Elaboração do Git do trabalho com hierarquia de pastas, disciplinas e etc.|26/02/2019|
+|Criação do PMC em sala de aula e apresentação do mesmo.|27/02/2019|
+|Início do documento de Análise.|02/03/2019|
+|Elaboração do mini mundo defininco bem o escopo e aprofundando dentro das regras de negócio|03/03/2019|
+|Desenvolvimento do diagrama de classes baseado no mini mundo.|04/03/2019|
+|Levantamento de requisistos do sistema.|04/03/2019|
+|||
