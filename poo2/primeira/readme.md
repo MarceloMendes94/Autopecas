@@ -6,3 +6,6 @@
 [Diário de Bordo](https://github.com/MarceloMendes94/Autopecas/blob/master/poo2/diario_de_bordo.md)<br>
 # Diagrama de classe
 ![diagrama de classe](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/diagramaClasses.png)<br>
+
+# Análise
+[Documento de analise](https://github.com/MarceloMendes94/Autopecas/tree/master/analise)
