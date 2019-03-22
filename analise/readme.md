@@ -55,7 +55,7 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |RNF03|A persistência das informações deve ser implementada, em um primeiro momento, em um Sistema Gerenciador de Bancos de Dados Relacionais (SGBDR) livre (Postgres ou MySQL). Contudo, no futuro deve ser possível utilizar outros SGBDRs ou até mesmo outra tecnologia de banco de dados.|Modificabilidade|Funcionalidade|Alta|
 |RNF04|O sistema deve alertar o usuário ao adicionar um item à sua compra.|Proteção contra erros do usuário|Funcionalidade|Média|
 |RNF05|Os usuários devem ser capazes de realizar suas ações no sistema (buscar, selecionar produto, finalizar compra) em menos de 5 minutos.|Operacionalidade|Funcionalidade|Média|
-|RNF06|NOT FOUND|Reusabilidade|Sistema|Média|
+|RNF06|O sistema deve ter um módulo com os dados de usuários para um utilitário que envolva os clientes.|Reusabilidade|Sistema|Média|
 |RNF07|Novos usuários devem ser capazes de realizar compras após a segunda tentativa de realizar essa tarefa usando o sistema.|Inteligibilidade|Funcionalidade|Alta|
 |RNF08|O administrador do sistema deve ser capaz de identificar erros que eventualmente ocorrerem.|Analisabilidade|Funcionalidade|Alta|
 
