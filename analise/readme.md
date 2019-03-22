@@ -29,7 +29,7 @@ Nosso cliente disse que em tempos de crise o preço baixo tem sido uma solução
 Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas de seus produtos e que pudesse o auxiliar controlar seu estoque.
 <br>
 ### Diagrama de Classes
-![diagrana de classe](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/diagramaClasses.png)
+![diagrana de classe](diagramaClasses.png)
 ### Levantamento de Requisitos
 #### requisitos funcionais
  | id | nome | descrição | Prioridade |
@@ -72,4 +72,4 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |RN07|A troca de produtos só poderá ser realizada até 7 dias após a entrega do produto ao usuário. Este prazo pode, eventualmente, ser ampliado em função da política da empresa.|Alta|
 
 ### Casos de uso
-![casos de uso](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/usecase.PNG)
+![casos de uso](usecase.PNG)
