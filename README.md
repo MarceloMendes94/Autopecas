@@ -2,9 +2,9 @@
 
 ## disciplinas
 
-- [Programação Orientada a Objeto 2](https://github.com/MarceloMendes94/Autopecas/tree/master/poo2)
-- [Projeto de Sistemas]()
-- [Banco de dados 2]()
+- [Programação Orientada a Objeto 2](/poo2)
+- [Projeto de Sistemas](/projeto_sistemas)
+- [Banco de dados ]()
 - [Engenharia de software]()
 
 ## Membros
