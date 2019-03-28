@@ -71,6 +71,9 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |RN06|A troca de produtos se dará de acordo com contato estabelecido pelo usuário com a empresa.|Alta|
 |RN07|A troca de produtos só poderá ser realizada até 7 dias após a entrega do produto ao usuário. Este prazo pode, eventualmente, ser ampliado em função da política da empresa.|Alta|
 
+### Casos de uso
+![casos de uso](usecase.PNG)
+
 ### Táticas para tratar atributos de qualidade
 
 |Categoria|RNFs|Condutor da arquitetura|Táticas|
@@ -80,6 +83,3 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |Modificabilidade|RNF03|Sim|5. Uso da técnica de ORM para abstrair o uso do banco de dados.|
 |Confiabilidade|RNF04|Não| 6. Uso de um carrinho de compras, deixando a quantidade de itens visível e destacado.|
 |Usabilidade|RNF05, RNF7|Não| 7. Exibir na página inicial do sistema uma lista com produtos mais relevantes.<br>8. Uso de barra de pesquisa geral para pesquisa de produtos e categorias.<br>9. Uso de menu lateral para exibir as categorias e o usuário conseguir navegar por elas.<br>10. Uso de tutorial de utilização do sistema no primeiro acesso.<br>11. Prover ao usuário um FAQ.<br>12. Prover ao usuário um chat ao vivo para sanar suas dúvidas.|
-
-### Casos de uso
-![casos de uso](usecase.PNG)
