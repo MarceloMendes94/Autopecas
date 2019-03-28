@@ -71,5 +71,15 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |RN06|A troca de produtos se dará de acordo com contato estabelecido pelo usuário com a empresa.|Alta|
 |RN07|A troca de produtos só poderá ser realizada até 7 dias após a entrega do produto ao usuário. Este prazo pode, eventualmente, ser ampliado em função da política da empresa.|Alta|
 
+### Táticas para tratar atributos de qualidade
+
+|Categoria|RNFs|Condutor da arquitetura|Táticas|
+|---------|----|-----------------------|-------|
+|Segurança|RNF1, RNF2|Sim|1. Identificar usuários utilizando email e autenticá-lo por meio de senha ou Facebook<br>2. Autorizar usuários por meio de perfis de acesso: Gerente (cadastrar produtos, ver relatórios e cadastrar funcionários), Despachante (realizar atendimento ao usuário e visualizar status das compras) e Cliente (realizar compras e visualizar produtos disponíveis).<br>3. Deixar conteúdo visível aos sites de busca como google apenas informações de produtos.|
+|Manutenabilidade|RNF08|Não|4. Todas as ações tomadas pelo servidor da aplicação devem ser registradas por meio de logs com vida útil de 90 dias.|
+|Modificabilidade|RNF03|Sim|5. Uso da técnica de ORM para abstrair o uso do banco de dados.|
+|Confiabilidade|RNF04|Não| 6. Uso de um carrinho de compras, deixando a quantidade de itens visível e destacado.|
+|Usabilidade|RNF05, RNF7|Não| 7. Exibir na página inicial do sistema uma lista com produtos mais relevantes.<br>8. Uso de barra de pesquisa geral para pesquisa de produtos e categorias.<br>9. Uso de menu lateral para exibir as categorias e o usuário conseguir navegar por elas.<br>10. Uso de tutorial de utilização do sistema no primeiro acesso.<br>11. Prover ao usuário um FAQ.<br>12. Prover ao usuário um chat ao vivo para sanar suas dúvidas.|
+
 ### Casos de uso
 ![casos de uso](usecase.PNG)
