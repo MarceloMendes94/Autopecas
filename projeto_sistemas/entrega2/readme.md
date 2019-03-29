@@ -47,7 +47,7 @@
 
 <hr>
 
-### Táticas para tratar atributos de qualidade
+# Táticas para tratar atributos de qualidade
 
 |Categoria|RNFs|Condutor da arquitetura|Táticas|
 |---------|----|-----------------------|-------|
@@ -59,5 +59,5 @@
  
  <hr>
 
-# arquitetura
+# Arquitetura
 ![arquitetura](../arquitetura/Arquitetura_sistema.png)
