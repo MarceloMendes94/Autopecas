@@ -72,6 +72,6 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |RN07|A troca de produtos só poderá ser realizada até 7 dias após a entrega do produto ao usuário. Este prazo pode, eventualmente, ser ampliado em função da política da empresa.|Alta|
 
 ### Casos de uso
-![casos de uso](usecase.PNG)
+![casos de uso](useCaseDiagram.PNG)
 
 
