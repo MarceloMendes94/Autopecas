@@ -38,7 +38,7 @@ Nosso cliente disse que em tempos de crise o preço baixo tem sido uma solução
 Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas de seus produtos.
 <br>
 ### Diagrama de classe
-![Diagrama de classe](analise/diagramaClasses.png)
+![Diagrama de classe](analise/classDiagram.png)
 
 ### Protótipo
 [Protótipo](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/mockup.pdf)<br>
