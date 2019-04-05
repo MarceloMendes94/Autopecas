@@ -1,7 +1,7 @@
 
 package autopecas;
 
-import teste.TesteRede;
+import teste_conn.TesteRede;
 
 public class AutoPecas {
 

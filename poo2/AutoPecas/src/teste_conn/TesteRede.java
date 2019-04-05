@@ -1,5 +1,5 @@
 
-package teste;
+package teste_conn;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
