@@ -15,3 +15,4 @@ Uma descrição breve das atividades feitas, por quem foi feita e o dia que foi 
 |Detalhamento de requisitos funcionais e regras de negócio por Ewerson Vieira, incorporação das RF no documento de reqiusitos feito por Marcelo Mendes.|10/03/2019|
 |compilção e revisão do documento de análise feito por marcelo mendes.|12/03/2019|
 |modelagem de um banco de dados na aplicação BR modelo|03/04/2019|
+|termino do modelo lógico do banco feito por marcelo mendes|05/04/2019|
