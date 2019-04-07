@@ -16,3 +16,5 @@ Uma descrição breve das atividades feitas, por quem foi feita e o dia que foi 
 |compilção e revisão do documento de análise feito por marcelo mendes.|12/03/2019|
 |modelagem de um banco de dados na aplicação BR modelo|03/04/2019|
 |termino do modelo lógico do banco feito por marcelo mendes|05/04/2019|
+|revisão do modelo do diagrama de classe apagando um monte de besteira dos outros por marcelo|06/04/2019|
+apilcação do metodo fábrica dentro do projeto na parte de cadastro de produtos e atualização da documentação por marcelo mendes|07/04/2019| 

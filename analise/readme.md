@@ -29,7 +29,8 @@ Nosso cliente disse que em tempos de crise o preço baixo tem sido uma solução
 Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas de seus produtos e que pudesse o auxiliar controlar seu estoque.
 <br>
 ### Diagrama de Classes
-![diagrana de classe](diagramaClasses.png)
+![diagrana de classe](/analise/diagramas/imagem/dominio.jpg)
+
 ### Levantamento de Requisitos
 #### requisitos funcionais
  | id | nome | descrição | Prioridade |
@@ -72,6 +73,6 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 |RN07|A troca de produtos só poderá ser realizada até 7 dias após a entrega do produto ao usuário. Este prazo pode, eventualmente, ser ampliado em função da política da empresa.|Alta|
 
 ### Casos de uso
-![casos de uso](useCaseDiagram.PNG)
+![casos de uso](/analise/diagramas/imagem/useCaseDiagram.PNG)
 
 
