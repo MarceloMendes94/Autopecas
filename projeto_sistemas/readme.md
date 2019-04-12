@@ -1,3 +1,2 @@
 # quadro de entregas da disciplina de de projeto de sistemas
-[entrega 1]()
-[entrega 2](/entrega2)
+[Entrega 2](/projeto_sistemas/entrega2)
