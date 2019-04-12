@@ -42,6 +42,9 @@ Contudo o senhor Alan gostaria de um sistema disponível na internet para vendas
 ### Protótipo
 [Protótipo](https://github.com/MarceloMendes94/Autopecas/blob/master/analise/mockup.pdf)<br>
 
+### Kanban
+[Projeto de Sistemas](https://github.com/MarceloMendes94/Autopecas/projects/1)<br>
+
 ### Levantamento de requisitos
 
 <hr>
