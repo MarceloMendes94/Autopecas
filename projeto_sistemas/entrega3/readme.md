@@ -1,4 +1,4 @@
-# Entrega 3
+﻿# Entrega 3
 
 ## Projeto do Domínio
 
@@ -20,8 +20,10 @@
 
 #### Modelo Lógico do Banco
 
-![modelo]()
+![modelo](imagens/ps_bd.png)
+
+![modelo](imagens/ps_logico.png)
 
 #### Diagrama de Classes da Persistência
 
-![diagrama]()
+![diagrama](imagens/persistencia_dao.png)
