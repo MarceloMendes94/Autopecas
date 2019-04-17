@@ -14,7 +14,7 @@
 
 #### Diagrama Estrutural da Interface com o Usuário
 
-![diagrama]()
+![diagrama](imagens/diagramStructureUserInterface.png)
 
 ## Projeto da Persistência
 
