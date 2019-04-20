@@ -21,7 +21,7 @@
 
 #### Protótipo de Tela
 
-![prototipo]()
+[prototipo](/projeto_sistemas/entrega3/editaveis/Mockup_PS.pdf)
 
 #### Diagrama Estrutural da Interface com o Usuário
 
