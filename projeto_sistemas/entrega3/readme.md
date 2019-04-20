@@ -1,10 +1,21 @@
-﻿# Entrega 3
+﻿# Terceira entrega  PS 20191
+
+## Entregáveis
+1. Plataforma de Implementação
+2. Definir Táticas para tratar Atributos de qualidade
+3. Elaborar Arquitetura lógica do Sistema
+
+## Grupo
+1. David Villaça
+2. Douglas Bolis
+3. Ewerson Vieira
+4. Marcelo Mendes
 
 ## Projeto do Domínio
 
 #### Diagrama de Classes do Projeto
 
-![diagrama]()
+![diagrama](/imagens/projetoDetalhado.jpg)
 
 ## Projeto da Interface com o Usuário
 
