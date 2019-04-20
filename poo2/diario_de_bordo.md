@@ -19,3 +19,4 @@ Uma descrição breve das atividades feitas, por quem foi feita e o dia que foi 
 |revisão do modelo do diagrama de classe apagando um monte de besteira dos outros por marcelo|06/04/2019|
 |apilcação do metodo fábrica dentro do projeto na parte de cadastro de produtos e atualização da documentação por marcelo mendes|07/04/2019| 
 |validado com o professor felipe o modelo do padrão fábrica e feito alterações sugeridas por ele |10/04/2019|
+|projeto da persistentcia feito por david villaça, foi feito um mockup por ewerson, projeto detalhado e criação da do dominio com POO em PHP por marcelo|17/04/2019|
