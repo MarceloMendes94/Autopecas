@@ -1,10 +1,11 @@
 <?php
-    require_once('produto');
+    //import
+    require_once('produto.php');
     //interface
-    class Polia extends Produto{
-        public $qte_sulcos;
-
-        function Bobina($numero_peca, $altura, $largura, $comprimento, $diamentroInterno, $diamentroExterno,$amperagem,$voltagem,$valor,$marca,$numero_oem,$qte_sulcos){
+    require_once('fabrica_produtos.php');
+    class Rolamento extends Produto implements fabrica{
+        
+        function Rolamento($numero_peca, $altura, $largura, $comprimento, $diamentroInterno, $diamentroExterno,$amperagem,$voltagem,$valor,$marca,$numero_oem){
             $this->numero_peca      = $numero_peca;
             $this->altura           = $altura;
             $this->largura          = $largura;
@@ -13,9 +14,8 @@
             $this->diamentroExterno = $diamentroExterno;
             $this->amperagem        = $amperagem;
             $this->voltagem         = $voltagem;
-            $this->valor            = $valor;
-            $this->qte_sulcos       = $qte_sulcos;             
+            $this->valor            = $valor;          
             $this->fabricante       = new Fabricante($marca, $numero_oem);
-        } 
+        }
     }
 ?>
