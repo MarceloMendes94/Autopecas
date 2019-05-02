@@ -2,9 +2,9 @@
 
 ## disciplinas
 
-- [Programação Orientada a Objeto 2](/poo2)
-- [Projeto de Sistemas](/projeto_sistemas)
-- [Banco de dados ](/banco_de_dados)
+- [Programação Orientada a Objeto 2]()
+- [Projeto de Sistemas]()
+- [Banco de dados ]()
 
 ## Membros
 
@@ -12,6 +12,33 @@
 2. Douglas Bolis
 3. Ewerson Vieira
 4. Marcelo Mendes
+
+# árvore de arquivos
+
+1. arquivos(todos arquivos editaveis .astah .bin .doc )
+    1. analise
+    2. banco_de_dados
+    3. poo2
+2. imagens (todas imagens relativas ao projeto)
+
+3. analise
+    1. analise_simplificada.md
+4. banco_de_dados
+    1. projeto_persistencia.md
+5. poo2
+    1. primeira 
+    2. segunda
+    3. terceira 
+    4. quarta 
+    5. diario_de_bordo.md
+6. projeto_sistemas
+    1. entrega 1
+    2. entrega 2
+    3. entrega 3
+    4. readme.md
+7. README.md
+
+
 
 
 
