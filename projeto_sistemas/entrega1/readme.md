@@ -39,9 +39,9 @@
 <br>
 
 ### Casos de Uso
-![casos de uso](/imagens/useCaseDiagram.PNG)
+![casos de uso](../imagem/useCaseDiagram.PNG)
 <br>
 <br>
 
 ### Diagrama de classes
-![diagrama de classes](/imagens/dominio.jpg)
+![diagrama de classes](../imagem/dominio.jpg)

@@ -74,4 +74,4 @@
  <hr>
 
 # Arquitetura
-![arquitetura](../../imagens/arquitetura/Arquitetura_sistema.png)
+![arquitetura](../imagem/Arquitetura_sistema.png)

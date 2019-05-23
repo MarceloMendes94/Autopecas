@@ -15,26 +15,26 @@
 
 #### Diagrama de Classes do Projeto
 
-![diagrama](/imagens/projetoDetalhado.jpg)
+![diagrama](../imagem/projetoDetalhado.jpg)
 
 ## Projeto da Interface com o Usuário
 
 #### Protótipo de Tela
 
-[prototipo](/projeto_sistemas/entrega3/editaveis/Mockup_PS.pdf)
+[prototipo](../imagem/Mockup_PS.pdf)
 
 #### Diagrama Estrutural da Interface com o Usuário
 
-![diagrama](imagens/diagramStructureUserInterface.png)
+![diagrama](../imagem/diagramStructureUserInterface.png)
 
 ## Projeto da Persistência
 
 #### Modelo Lógico do Banco
 
-![modelo](imagens/ps_bd.png)
+![modelo]()
 
-![modelo](imagens/ps_logico.png)
+![modelo]()
 
 #### Diagrama de Classes da Persistência
 
-![diagrama](imagens/persistencia_dao.png)
+![diagrama](../imagem/persistencia_dao.jpg)
