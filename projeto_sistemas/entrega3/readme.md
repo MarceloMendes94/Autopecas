@@ -31,9 +31,9 @@
 
 #### Modelo Lógico do Banco
 
-![modelo]()
+![modelo](../imagem/ps_bd.png)
 
-![modelo]()
+![modelo](../imagem/ps_logico.png)
 
 #### Diagrama de Classes da Persistência
 
