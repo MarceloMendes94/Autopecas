@@ -1,0 +1,21 @@
+Heurísticas presentes no protótipo:
+
+1 - Visibilidade do status do sistema -> informar ao usuário o que ele pesquisou e as especificações possíveis da pesquisa.
+
+1 - Visibilidade do status do sistema -> feedback de compra.
+
+2 - Equivalência entre sistema e mundo real -> ícones universais.
+
+3 - Controle do usuário e liberdade -> possibilidade de voltar ou cancelar atos no sistema.
+
+6 - Reconhecimento x memorização -> adicionar "migalha de pão".
+
+7 - Flexibilidade e eficiência de uso -> variedade de tipos de login via redes sociais.
+
+8 - Estética e design minimalista -> uso de menu/aba.
+
+8 - Estética e design minimalista -> interface com poucas informações.
+
+10 - Ajuda e documentação -> uso de labels para ajudar o usuário.
+
+10 - Ajuda e documentação -> uso de tooltip para guiar o preenchimento de dados.
