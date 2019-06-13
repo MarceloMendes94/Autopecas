@@ -1,0 +1,112 @@
+08-Jun-2019 17:50:03.060 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+08-Jun-2019 17:50:03.064 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+08-Jun-2019 17:50:03.064 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+08-Jun-2019 17:50:03.064 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Jun-2019 17:50:03.064 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-20-generic
+08-Jun-2019 17:50:03.064 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jun-2019 17:50:03.065 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/marcelo/jdk1.8.0_111/jre
+08-Jun-2019 17:50:03.065 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+08-Jun-2019 17:50:03.065 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jun-2019 17:50:03.065 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20
+08-Jun-2019 17:50:03.065 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20
+08-Jun-2019 17:50:03.067 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/logging.properties
+08-Jun-2019 17:50:03.067 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jun-2019 17:50:03.067 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|marcelo
+08-Jun-2019 17:50:03.067 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jun-2019 17:50:03.069 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jun-2019 17:50:03.069 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jun-2019 17:50:03.069 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jun-2019 17:50:03.070 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20
+08-Jun-2019 17:50:03.070 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20
+08-Jun-2019 17:50:03.070 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/temp
+08-Jun-2019 17:50:03.070 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/marcelo/jdk1.8.0_111/jre/lib/amd64:/home/marcelo/jdk1.8.0_111/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Jun-2019 17:50:03.955 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Jun-2019 17:50:04.021 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Jun-2019 17:50:04.033 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.667] milliseconds
+08-Jun-2019 17:50:04.115 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jun-2019 17:50:04.116 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+08-Jun-2019 17:50:04.129 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/ServletHTML.xml]
+08-Jun-2019 17:50:04.173 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ServletHTML] in deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/ServletHTML.xml] has been ignored
+08-Jun-2019 17:50:04.864 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jun-2019 17:50:04.914 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/ServletHTML.xml] has finished in [785] ms
+08-Jun-2019 17:50:04.915 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/WebApplication.xml]
+08-Jun-2019 17:50:04.916 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication] in deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/WebApplication.xml] has been ignored
+08-Jun-2019 17:50:04.919 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/WebApplication.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:929)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@56528192]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4797)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4932)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/marcelo/NetBeansProjects/WebApplication/build/web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+08-Jun-2019 17:50:04.921 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/WebApplication.xml] has finished in [7] ms
+08-Jun-2019 17:50:04.923 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/host-manager]
+08-Jun-2019 17:50:05.014 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/host-manager] has finished in [92] ms
+08-Jun-2019 17:50:05.014 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/manager]
+08-Jun-2019 17:50:05.114 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/manager] has finished in [100] ms
+08-Jun-2019 17:50:05.117 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/examples]
+08-Jun-2019 17:50:05.677 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/examples] has finished in [561] ms
+08-Jun-2019 17:50:05.678 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/docs]
+08-Jun-2019 17:50:05.712 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/docs] has finished in [34] ms
+08-Jun-2019 17:50:05.713 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/ROOT]
+08-Jun-2019 17:50:05.788 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/webapps/ROOT] has finished in [75] ms
+08-Jun-2019 17:50:05.803 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jun-2019 17:50:05.846 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Jun-2019 17:50:05.884 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1.850] milliseconds
+08-Jun-2019 17:50:10.133 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/AutopecasServelet.xml]
+08-Jun-2019 17:50:10.138 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/AutopecasServelet] in deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/AutopecasServelet.xml] has been ignored
+08-Jun-2019 17:50:10.254 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/marcelo/Área de Trabalho/Tommcat/apache-tomcat-9.0.20/conf/Catalina/localhost/AutopecasServelet.xml] has finished in [122] ms
+08-Jun-2019 17:50:10.273 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AutopecasServelet]] after start() had already been called. The second call will be ignored.
+08-Jun-2019 18:22:08.793 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Jun-2019 18:22:08.794 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jun-2019 18:22:08.800 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Jun-2019 18:22:08.806 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Jun-2019 18:22:08.860 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jun-2019 18:22:08.862 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Jun-2019 18:22:08.873 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jun-2019 18:22:08.874 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

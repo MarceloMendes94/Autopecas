@@ -1,0 +1,213 @@
+12-Jun-2019 08:02:10.996 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+12-Jun-2019 08:02:10.996 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+12-Jun-2019 08:02:11.338 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:02:11.353 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:11:13.858 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:15:11.111 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:15:11.134 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:18:04.076 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:18:04.097 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:21:51.913 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:22:31.138 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:03.962 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:03.985 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:23:04.003 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:23:05.309 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:05.324 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:23:22.324 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:22.351 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:23:22.381 INFORMAÇÕES [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:23:23.566 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:23.576 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:23:44.950 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:44.965 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:23:49.385 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:49.391 INFORMAÇÕES [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:23:49.406 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:23:49.419 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:25:48.334 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:25:50.334 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:25:50.342 INFORMAÇÕES [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:26:48.562 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:26:57.928 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:26:57.937 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:27:25.806 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:27:46.065 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:27:46.082 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:27:46.094 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:27:46.113 GRAVE [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: Error starting [/AutopecasServelet]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AutopecasServelet]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1415)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:377)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:607)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1839)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [CadastroCliente]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3171)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1392)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1169)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5048)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 28 more
+12-Jun-2019 08:28:15.549 INFORMAÇÕES [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:28:15.554 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:28:15.573 INFORMAÇÕES [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/AutopecasServelet'
+12-Jun-2019 08:28:16.102 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/tmp/context9201311506638617947.xml'
+12-Jun-2019 08:28:16.173 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:28:25.381 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:28:25.392 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:28:25.406 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:28:25.419 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:29:19.581 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:29:19.590 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:29:19.599 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:29:20.779 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:29:20.790 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:29:30.349 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:29:30.363 INFORMAÇÕES [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:29:30.371 INFORMAÇÕES [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:29:31.528 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:29:31.536 INFORMAÇÕES [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:30:42.357 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:31:42.772 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:31:42.781 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:31:42.808 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:31:42.825 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:34:21.551 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:34:21.571 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/AutopecasServelet'
+12-Jun-2019 08:34:21.580 INFORMAÇÕES [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:34:49.568 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:35:17.267 INFORMAÇÕES [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:35:17.282 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/AutopecasServelet'
+12-Jun-2019 08:35:31.730 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:35:31.735 INFORMAÇÕES [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:35:31.749 INFORMAÇÕES [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/tmp/context6367652584094343572.xml'
+12-Jun-2019 08:35:31.865 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/AutopecasServelet'
+12-Jun-2019 08:36:36.414 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:36:50.797 INFORMAÇÕES [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:36:50.803 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:37:29.937 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:37:29.941 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:39:37.889 INFORMAÇÕES [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:39:37.901 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:40:47.706 INFORMAÇÕES [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:40:52.643 INFORMAÇÕES [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:40:52.651 INFORMAÇÕES [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:40:52.676 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:43:04.957 INFORMAÇÕES [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:43:04.968 INFORMAÇÕES [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:44:47.412 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:44:47.425 INFORMAÇÕES [http-nio-8080-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:45:06.608 INFORMAÇÕES [http-nio-8080-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:45:06.621 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:45:07.830 INFORMAÇÕES [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:45:07.834 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:45:07.853 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:46:20.042 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:46:20.056 INFORMAÇÕES [http-nio-8080-exec-90] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:47:11.182 INFORMAÇÕES [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:47:11.190 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:47:55.455 INFORMAÇÕES [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:47:55.472 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:47:59.765 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:47:59.782 INFORMAÇÕES [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:48:52.327 INFORMAÇÕES [http-nio-8080-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:48:52.339 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:49:32.042 INFORMAÇÕES [http-nio-8080-exec-95] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:49:32.055 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:50:01.699 INFORMAÇÕES [http-nio-8080-exec-95] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:50:01.709 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:50:19.484 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:50:19.503 INFORMAÇÕES [http-nio-8080-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:51:22.881 INFORMAÇÕES [http-nio-8080-exec-99] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:51:22.897 INFORMAÇÕES [http-nio-8080-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:54:08.727 INFORMAÇÕES [http-nio-8080-exec-102] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:54:08.736 INFORMAÇÕES [http-nio-8080-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:54:30.902 INFORMAÇÕES [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:54:30.910 INFORMAÇÕES [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 08:55:53.405 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 08:55:53.416 INFORMAÇÕES [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:11:54.369 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+12-Jun-2019 09:11:54.369 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+12-Jun-2019 09:11:54.608 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:11:54.620 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:11:54.658 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:13:37.777 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:13:37.790 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:13:44.170 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:13:44.179 INFORMAÇÕES [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:13:47.685 INFORMAÇÕES [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:13:47.692 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:13:47.715 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:14:02.758 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:14:02.777 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:14:13.407 INFORMAÇÕES [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:14:13.433 INFORMAÇÕES [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:14:14.484 INFORMAÇÕES [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:14:14.490 INFORMAÇÕES [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:14:14.507 INFORMAÇÕES [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:15:31.615 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:15:31.630 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:18:29.285 INFORMAÇÕES [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:18:29.301 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:19:37.526 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:19:37.554 INFORMAÇÕES [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:21:41.586 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:21:41.608 INFORMAÇÕES [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:22:03.177 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:22:08.676 INFORMAÇÕES [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:22:15.762 INFORMAÇÕES [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:22:15.770 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:22:15.788 INFORMAÇÕES [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:23:02.818 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:23:11.835 INFORMAÇÕES [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:23:11.850 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:23:38.937 INFORMAÇÕES [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:24:58.828 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:25:17.309 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:25:17.323 INFORMAÇÕES [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:26:06.894 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:26:06.913 INFORMAÇÕES [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:26:09.422 INFORMAÇÕES [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:26:09.440 INFORMAÇÕES [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:26:09.462 INFORMAÇÕES [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:28:38.020 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:29:46.618 INFORMAÇÕES [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:29:53.989 INFORMAÇÕES [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:29:54.004 INFORMAÇÕES [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:30:14.811 INFORMAÇÕES [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:30:28.647 INFORMAÇÕES [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:30:28.655 INFORMAÇÕES [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:33:37.948 INFORMAÇÕES [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:33:37.958 INFORMAÇÕES [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
+12-Jun-2019 09:33:57.340 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Jun-2019 09:33:57.355 INFORMAÇÕES [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/AutopecasServelet'
