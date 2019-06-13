@@ -21,8 +21,8 @@ public class BuilderCliente {
     public void criarCartao(String numeroc, String nomeTitular, Date vencimento, String Bandeira){
         this.card = new Cartao(numeroc, nomeTitular, vencimento, Bandeira);
     }
-    public void criarCliente(String email, String nome, Date nascimento){
-        this.cliente= new Cliente(email, card,  end, nome, nascimento, cpf);
+    public void criarCliente( String nome, Date nascimento, String email, String senha){
+        this.cliente= new Cliente( card,  end, nome, nascimento, cpf,email,senha);
     }
     
 }
