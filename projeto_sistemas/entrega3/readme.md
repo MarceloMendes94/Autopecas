@@ -15,7 +15,7 @@
 
 #### Diagrama de Classes do Projeto
 
-![diagrama](../imagem/projetoDetalhado.jpg)
+![diagrama](../imagem/diagramaProjetoDetalhado.png)
 
 ## Projeto da Interface com o Usuário
 
