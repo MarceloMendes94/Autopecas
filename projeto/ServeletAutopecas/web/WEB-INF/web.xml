@@ -4,9 +4,65 @@
         <servlet-name>NewServlet</servlet-name>
         <servlet-class>NewServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>cadastrocliente</servlet-name>
+        <servlet-class>cadastrocliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>controle.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Rolamento</servlet-name>
+        <servlet-class>view.Rolamento</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Bobina</servlet-name>
+        <servlet-class>view.Bobina</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Rotor</servlet-name>
+        <servlet-class>view.Rotor</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Polia</servlet-name>
+        <servlet-class>view.Polia</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Regulador</servlet-name>
+        <servlet-class>view.Regulador</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastrocliente</servlet-name>
+        <url-pattern>/cadastrocliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Rolamento</servlet-name>
+        <url-pattern>/Rolamento</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Bobina</servlet-name>
+        <url-pattern>/Bobina</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Rotor</servlet-name>
+        <url-pattern>/Rotor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Polia</servlet-name>
+        <url-pattern>/Polia</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Regulador</servlet-name>
+        <url-pattern>/Regulador</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

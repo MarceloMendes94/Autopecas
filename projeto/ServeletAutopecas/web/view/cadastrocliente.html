@@ -1,36 +1,56 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
+        <!-- icones-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"  crossorigin="anonymous">       
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap tags-->
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  crossorigin="anonymous">
+        
     </head>
     <body>
-       <form action='../cadastrocliente' method='post'>
-           <h2>informações básicas e de entrega</h2>
-           <label>CPF            </label><input type="text" name="cpf" placeholder="Ex.: xxx.xxx.xxx-xx" maxlength="11" required data-mask="000.000.000-00" data-mask-selectonfocus="true"> <br>
-           <!--<label>Nome completo  </label><input type="text" name="nome" required>             <br>
-           <label>Logradouro     </label><input type="text" name="logradouro" required>       <br>
-           <label>CEP            </label><input type="text" name="cep" required>              <br>
-           <label>Número da casa </label><input type="text" name="numerocasa" required>       <br>
-           <label>Complemento    </label><input type="text" name="complemento" required>      <br>
-           <label>Referência     </label><input type="text" name="referencia" required>       <br>
-           <label>Data Nascimento</label><input type="text" name="nascimento" required>       <br>
-           <h2> informações de pagamento.</h2>
-           <label>Numero do cartão  </label><input type="text" name="numerocartao" required> <br>
-           <label>Nome do titular   </label><input type="text" name="nometitular" required>  <br>
-           <label>data de vencimento</label><input type="text" name="vencimento" required>   <br>
-           <label>Bandeira          </label><input type="text" name="bandeira" required>     <br>
-           <h2>Informações de acesso</h2>
-           <label>email                 </label><input type="text" name="email" required>    <br>
-           <label>Senha                 </label><input type="text" name="senha1" required>   <br>
-           <label>Confirmação de senha  </label><input type="text" name="senha2" required>   <br>-->
-           <input type="submit" value="cadastrar">
-       </form>
+<style>
+input {
+    width:90%;
+    margin:10px;
+}    
+</style>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-4">
+                 <div class="row">
+                    <div class="card">
+                        <div class="card-body">
+                        <form action='../cadastrocliente' method='post'>
+                        <h3>informações básicas e de entrega</h3>
+                            <input type="text" name="cpf"   placeholder="cpf"  required > <br>
+                            <input type="text" name="nome"  placeholder="nome" required>  <br>
+                            <input type="text" name="logradouro" placeholder="logradouro"   required>       <br>
+                            <input type="text" name="cep"          required placeholder="cep">              <br>
+                            <input type="text" name="numerocasa"   required placeholder="numero da casa">   <br>
+                            <input type="text" name="complemento"  required placeholder="complemento">      <br>
+                            <input type="text" name="referencia"   required placeholder="referencia">       <br>
+                            <input type="text" name="nascimento"   required placeholder="nascimento">       <br>
+                        <h3> informações de pagamento.</h3>
+                            <input type="text" name="numerocartao" required  placeholder="numero do cartao"> <br>
+                            <input type="text" name="nometitular" required   placeholder="nome do titular">  <br>
+                            <input type="text" name="vencimento" required    placeholder="vencimento">       <br>
+                            <input type="text" name="bandeira" required      placeholder="bandeira">         <br>
+                        <h3>Informações de acesso</h3>
+                            <input type="text" name="email" required placeholder="email">    <br>
+                            <input type="text" name="senha1" required placeholder="senha">   <br>
+                            <input type="text" name="senha2" required placeholder="confirmar senha">   <br>
+
+                            <input type="submit" class="btn btn-primary" value="cadastrar">
+                         </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
 </html>

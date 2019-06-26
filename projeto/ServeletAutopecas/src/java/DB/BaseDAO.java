@@ -24,7 +24,7 @@ public abstract class BaseDAO {
             rsmd    = rs.getMetaData();
             int numero_colunas;
             numero_colunas = rsmd.getColumnCount()+1;
-           while (rs.next()) {
+            while (rs.next()) {
                 String buffer_saida="";
                 for (int i=1; i<numero_colunas; i++ ){
                     if (i==1){
@@ -39,7 +39,7 @@ public abstract class BaseDAO {
             stmt.close();
             c.close();     
         }catch (Exception e) {
-          System.err.println(e.getClass().getName() + ": " + e.getMessage());            
+          System.err.println("meu erro"+e.getClass().getName() + ": " + e.getMessage());            
         }
         
         return saida;
