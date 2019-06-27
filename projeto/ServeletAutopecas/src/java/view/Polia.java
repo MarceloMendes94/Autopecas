@@ -5,6 +5,7 @@
  */
 package view;
 
+import design_parttens.TemplateFrontEnd;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -31,16 +32,11 @@ public class Polia extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet Polia</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet Polia at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            //prepara html
+            //TemplateFrontEnd view=new TemplateFrontEnd();
+            //out.println(view.baseDesign());
+            //out.println("<br>");
+            //out.println(view.produtos());
         }
     }
 

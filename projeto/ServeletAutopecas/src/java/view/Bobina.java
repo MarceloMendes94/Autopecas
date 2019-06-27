@@ -1,12 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package view;
-
 import DB.BobinaDAO;
-import design_parttens.FabricaProdutos;
+import design_parttens.TemplateBobina;
+import design_parttens.TemplateFrontEnd;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -14,38 +9,49 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author marcelo
- */
 public class Bobina extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");   
-        try (PrintWriter out = response.getWriter()) {
-            //pegar do banco todas boninas 
-            BobinaDAO bobinas= new BobinaDAO();
-            bobinas.carregarTodos();
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet Bobina</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet Bobina at  olha no netbeans</h1>");
-            out.println("</body>");
-            out.println("</html>");
+        try (PrintWriter out = response.getWriter()) {            
+            TemplateBobina bobina=new TemplateBobina();
+            out.println( bobina.baseDesign());
+            out.println("<div class=\"container\">");
+            for (int i=0;i< bobina.getLista_bobina_local().size();i+=2){
+                if  (   bobina.getLista_bobina_local().get(i)  != null && 
+                        bobina.getLista_bobina_local().get(i+1)!= null &&
+                        bobina.getLista_bobina_local().get(i+2)!= null){
+                    
+                    out.println("<div class=\"row\">");
+                    //coluna 1
+                    String preco= String.valueOf(bobina.getLista_bobina_local().get(i).getValor());
+                    String dim="";
+                    dim=dim+bobina.getLista_bobina_local().get(i).getAltura()     + " x ";
+                    dim=dim+bobina.getLista_bobina_local().get(i).getComprimento()+ " x ";
+                    dim=dim+bobina.getLista_bobina_local().get(i).getLargura()    ;
+                    out.println( bobina.cartao(preco,dim));
+                    
+                    //coluna 2                    
+                    preco= String.valueOf(bobina.getLista_bobina_local().get(i+1).getValor());
+                    dim="";
+                    dim=dim+bobina.getLista_bobina_local().get(i+1).getAltura()     + " x ";
+                    dim=dim+bobina.getLista_bobina_local().get(i+1).getComprimento()+ " x ";
+                    dim=dim+bobina.getLista_bobina_local().get(i+1).getLargura()    ;
+                    out.println( bobina.cartao(preco,dim));
+                    
+                    //coluna 3                   
+                    preco= String.valueOf(bobina.getLista_bobina_local().get(i+2).getValor());
+                    dim="";
+                    dim=dim+bobina.getLista_bobina_local().get(i+2).getAltura()     + " x ";
+                    dim=dim+bobina.getLista_bobina_local().get(i+2).getComprimento()+ " x ";
+                    dim=dim+bobina.getLista_bobina_local().get(i+2).getLargura()    ;
+                    out.println( bobina.cartao(preco,dim));
+                    
+                    out.println("</div>");
+                    out.println("<br>"); 
+                }
+            } 
+            out.println("</div>");
         }
     }
 

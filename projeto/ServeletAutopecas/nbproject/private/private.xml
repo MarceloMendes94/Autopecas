@@ -3,16 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/web/view/cadastrocliente.html</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/view/Polia.java</file>
             <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/view/Bobina.java</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/web/view/mostarCarrinho.html</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/view/Rotor.java</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/web/view/mostrarprodutos.html</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/web/WEB-INF/web.xml</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/view/Regulador.java</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/web/view/login.html</file>
-            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/view/Rolamento.java</file>
+            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/design_parttens/TemplateBobina.java</file>
+            <file>file:/home/marcelo/Documentos/Autopecas/projeto/ServeletAutopecas/src/java/design_parttens/TemplateFrontEnd.java</file>
         </group>
     </open-files>
 </project-private>
