@@ -1,20 +1,18 @@
 package design_parttens;
 
-import DB.BobinaDAO;
-import LN.Bobina;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class TemplateBobina extends TemplateFrontEnd{
-    public BobinaDAO bobinaDAO;
-    public ArrayList<Bobina> lista_bobina_local; 
-    public TemplateBobina() {
+    //public BobinaDAO bobinaDAO;
+    //public ArrayList<Bobina> lista_bobina_local; 
+    /*public TemplateBobina() {
         bobinaDAO=new BobinaDAO();
         bobinaDAO.carregarTodos();
         lista_bobina_local = bobinaDAO.lista_bobina;
-    }
+    }*/
     public String baseDesign() {
         String saida="";
         try {
@@ -41,8 +39,6 @@ public class TemplateBobina extends TemplateFrontEnd{
         return cartao;         
     }
 
-    public ArrayList<Bobina> getLista_bobina_local() {
-        return lista_bobina_local;
-    }
+   
     
 }

@@ -1,10 +1,10 @@
 package LN;
+import java.util.Calendar;
 
-import java.util.Date;
+public class Funcionario extends Pessoa{
 
-public class Funcionario extends Pessoa {
-
-    public Funcionario(String nome, Date nascimento, Cpf cpf, String email, String senha) {
-        super(nome, nascimento, cpf, email, senha);
-    }    
+    public Funcionario(Calendar nascimento, String nomeCompleto, Cpf cpf, Usuario user) {
+        super(nascimento, nomeCompleto, cpf, user);
+    }
+    
 }

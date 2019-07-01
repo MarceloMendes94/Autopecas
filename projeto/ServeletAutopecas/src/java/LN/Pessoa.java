@@ -1,20 +1,52 @@
 package LN;
-import java.util.Date;
+
+import java.util.Calendar;
+
 
 public class Pessoa {
-    private String nome;
-    private Date nascimento;
-    private final Cpf cpf;
-    private String email;
-    private String senha;
+    private Calendar nascimento;
+    private String nomeCompleto;
+    private Cpf cpf;
+    private Usuario user;
 
-    public Pessoa(String nome, Date nascimento, Cpf cpf ,String email ,String senha) {
-        this.nome = nome;
+    public Pessoa(Calendar nascimento, String nomeCompleto, Cpf cpf, Usuario user) {
         this.nascimento = nascimento;
+        this.nomeCompleto = nomeCompleto;
         this.cpf = cpf;
-        this.email = email;
-        this.senha = senha;
+        this.user = user;
     }
 
-   
+    public Calendar getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(Calendar nascimento) {
+        this.nascimento = nascimento;
+    }
+
+    public String getNomeCompleto() {
+        return nomeCompleto;
+    }
+
+    public void setNomeCompleto(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
+    }
+
+    public Cpf getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(Cpf cpf) {
+        this.cpf = cpf;
+    }
+
+    public Usuario getUser() {
+        return user;
+    }
+
+    public void setUser(Usuario user) {
+        this.user = user;
+    }
+       
+    
 }

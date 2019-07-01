@@ -1,14 +1,16 @@
 package LN;
 
-import java.util.Date;
+import java.util.Calendar;
 
 public class Cliente extends Pessoa{
-    private Cartao card;
-    private Endereco end;
+    private Endereco endereco;
 
-    public Cliente(Cartao card, Endereco end, String nome, Date nascimento, Cpf cpf, String email, String senha) {
-        super(nome, nascimento, cpf, email, senha);
-        this.card = card;
-        this.end = end;
+    public Cliente(Endereco endereco, Calendar nascimento, String nomeCompleto, Cpf cpf, Usuario user) {
+        super(nascimento, nomeCompleto, cpf, user);
+        this.endereco = endereco;
     }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }   
 }

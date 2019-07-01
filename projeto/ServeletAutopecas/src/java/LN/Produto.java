@@ -1,22 +1,27 @@
 package LN;
-public abstract class Produto  {
-    private int numeroPeca;
+public class Produto {
     private String altura;
     private String largura;
     private String comprimento;
-    private String diamentroInterno;
-    private String diamentroExterno;
+    private String diametro_interno;
+    private String diametro_externo;
     private float valor;
     private float amperagem;
-    private float voltagem;
+    private float tensao;
     private Fabricante fabricante;
+    private TipoProduto tipo;
 
-    public int getNumeroPeca() {
-        return numeroPeca;
-    }
-
-    public void setNumeroPeca(int numeroPeca) {
-        this.numeroPeca = numeroPeca;
+    public Produto(String altura, String largura, String comprimento, String diametro_interno, String diametro_externo, float valor, float amperagem, float tensao, Fabricante fabricante, TipoProduto tipo) {
+        this.altura = altura;
+        this.largura = largura;
+        this.comprimento = comprimento;
+        this.diametro_interno = diametro_interno;
+        this.diametro_externo = diametro_externo;
+        this.valor = valor;
+        this.amperagem = amperagem;
+        this.tensao = tensao;
+        this.fabricante = fabricante;
+        this.tipo = tipo;
     }
 
     public String getAltura() {
@@ -43,20 +48,20 @@ public abstract class Produto  {
         this.comprimento = comprimento;
     }
 
-    public String getDiamentroInterno() {
-        return diamentroInterno;
+    public String getDiametro_interno() {
+        return diametro_interno;
     }
 
-    public void setDiamentroInterno(String diamentroInterno) {
-        this.diamentroInterno = diamentroInterno;
+    public void setDiametro_interno(String diametro_interno) {
+        this.diametro_interno = diametro_interno;
     }
 
-    public String getDiamentroExterno() {
-        return diamentroExterno;
+    public String getDiametro_externo() {
+        return diametro_externo;
     }
 
-    public void setDiamentroExterno(String diamentroExterno) {
-        this.diamentroExterno = diamentroExterno;
+    public void setDiametro_externo(String diametro_externo) {
+        this.diametro_externo = diametro_externo;
     }
 
     public float getValor() {
@@ -75,12 +80,12 @@ public abstract class Produto  {
         this.amperagem = amperagem;
     }
 
-    public float getVoltagem() {
-        return voltagem;
+    public float getTensao() {
+        return tensao;
     }
 
-    public void setVoltagem(float voltagem) {
-        this.voltagem = voltagem;
+    public void setTensao(float tensao) {
+        this.tensao = tensao;
     }
 
     public Fabricante getFabricante() {
@@ -90,5 +95,14 @@ public abstract class Produto  {
     public void setFabricante(Fabricante fabricante) {
         this.fabricante = fabricante;
     }
+
+    public TipoProduto getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoProduto tipo) {
+        this.tipo = tipo;
+    }
+    
     
 }
