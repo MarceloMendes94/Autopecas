@@ -1,10 +1,7 @@
 package design_parttens;
 
-import java.util.Calendar;
-import java.util.Date;
-
 public class DiretorCliente {
-    private BuilderCliente buildercliente = new BuilderCliente();    
+    private final BuilderCliente buildercliente = new BuilderCliente();    
 
     public BuilderCliente getBuildercliente() {
         return buildercliente;
@@ -25,16 +22,14 @@ public class DiretorCliente {
      * @param logradouro 
      * @param cep       
      * objeto Usario
-     * @param nomeCompleto 
-     * @param nascimento
-     * Tipo Data
+     * @param nomeCompleto
      * @param dia
      * @param mes
      * @param ano
      * 
      * 
      */
-    public DiretorCliente (int primeiro, int segundo, int terceiro, int verificador, String email, String senha ,String logradouro, int cep, String numero, String complemento, String referencia, Calendar nascimento, String nomeCompleto,int dia, int mes,int  ano){
+    public DiretorCliente (int primeiro, int segundo, int terceiro, int verificador, String email, String senha ,String logradouro, int cep, String numero, String complemento, String referencia, String nomeCompleto,int dia, int mes,int  ano){
         buildercliente.criarCpf(primeiro, segundo, terceiro, verificador);
         buildercliente.criarUsuario(email, senha);
         buildercliente.criarEndereco(logradouro, cep, numero, complemento, referencia);

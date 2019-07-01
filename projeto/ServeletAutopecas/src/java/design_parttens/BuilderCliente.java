@@ -5,7 +5,6 @@ import LN.Cpf;
 import LN.Data;
 import LN.Endereco;
 import LN.Usuario;
-import java.util.Calendar;
 
 
 public class BuilderCliente {

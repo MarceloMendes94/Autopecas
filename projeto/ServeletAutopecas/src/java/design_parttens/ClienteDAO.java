@@ -9,8 +9,6 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 
 public class ClienteDAO implements BaseDAO{
 
@@ -135,12 +133,15 @@ public class ClienteDAO implements BaseDAO{
         String data_nascimento[] = new String[3];
         data_nascimento = array[2].split("-");
         //c.set(1994, 06, 01);
-        Calendar c = null;
-        c.set(1994, 06, 01);
-        Date nasc = new Date();
-        nasc.setYear(Integer.parseInt(data_nascimento[0]));
-        nasc.setMonth(Integer.parseInt(data_nascimento[1]));
-        nasc.setDate(Integer.parseInt(data_nascimento[2]));
+        //Calendar c = null;
+        //c.set(1994, 06, 01);
+        //Data nasc = new Data(Integer.parseInt(data_nascimento[0]), Integer.parseInt(data_nascimento[1]), Integer.parseInt(data_nascimento[2]));
+        //nasc.setAno(Integer.parseInt(data_nascimento[0]));
+        //nasc.setMes(Integer.parseInt(data_nascimento[1]));
+        //nasc.setDia(Integer.parseInt(data_nascimento[2]));
+        int ano = Integer.parseInt(data_nascimento[0]);
+        int mes = Integer.parseInt(data_nascimento[1]);
+        int dia = Integer.parseInt(data_nascimento[2]);
         String email = array[3];
         String senha = array[4];
         String logradouro = array[5];
@@ -151,7 +152,7 @@ public class ClienteDAO implements BaseDAO{
         
         
         //torcar Date por calendar
-        DiretorCliente diretorcliente = new DiretorCliente(d1,d2, d3, validador, email, senha, logradouro, cep, numero, complemento, ref, nasc, nome);
+        DiretorCliente diretorcliente = new DiretorCliente(d1,d2, d3, validador, email, senha, logradouro, cep, numero, complemento, ref, nome, dia, mes, ano);
         return (Object)diretorcliente.getBuildercliente().getCliente();        
     }
     

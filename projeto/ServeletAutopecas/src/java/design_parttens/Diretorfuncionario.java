@@ -1,7 +1,6 @@
 package design_parttens;
 
-import java.util.Calendar;
-import java.util.Date;
+import LN.Data;
 
 public class Diretorfuncionario {
     private BuilderFuncionario funcionario = new BuilderFuncionario();
@@ -19,10 +18,11 @@ public class Diretorfuncionario {
      * @param nascimento
      * @param nomeCompleto 
      */
-    public Diretorfuncionario(int d1, int d2, int d3, int validado,String email, String senha,Calendar nascimento, String nomeCompleto){
+    public Diretorfuncionario(int d1, int d2, int d3, int validado,String email, String senha,Data nascimento, String nomeCompleto, int dia, int mes, int ano){
         funcionario.criaCpf(d1, d2, d3, validado);
         funcionario.criaUser(email, senha);
-        funcionario.criaFuncionario(nascimento, nomeCompleto);
+        funcionario.criarData(dia, mes, ano);
+        funcionario.criaFuncionario(nomeCompleto);
     }
 
     public BuilderFuncionario getFuncionario() {
