@@ -35,6 +35,19 @@ public class Data {
         this.ano = ano;
     }
     public String transform(Data data){
-        return String.valueOf(ano)+"-"+String.valueOf(mes)+"-"+String.valueOf(dia);
+        String saida=String.valueOf(ano)+"-";
+        if (data.getMes()<10){
+            saida= saida+"0"+String.valueOf(data.getMes())+"-";
+        }
+        else{
+            saida= saida+String.valueOf(data.getMes())+"-";
+        }
+        if (data.getDia()<10){
+            saida= saida+"0"+String.valueOf(data.getDia());
+        }
+        else{
+            saida= saida+String.valueOf(data.getDia());
+        }
+        return saida;
     }
 }

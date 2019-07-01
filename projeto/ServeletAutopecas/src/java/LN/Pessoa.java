@@ -1,8 +1,5 @@
 package LN;
 
-import java.util.Calendar;
-
-
 public class Pessoa {
     private Data nascimento;
     private String nomeCompleto;

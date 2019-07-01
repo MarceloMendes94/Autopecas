@@ -41,10 +41,8 @@ public class ClienteDAO implements BaseDAO{
                      saida.add(parseCliente(buffer_saida));
                 }               
             }
-            rs.close();
-            stmt.close();
-            c.close();
-            System.out.println(saida.get(0));
+            //fechando tudo
+            rs.close(); stmt.close(); c.close();            
         }catch (Exception e) {
           System.err.println("meu erro "+e.getClass().getName() + ": " + e.getMessage());            
         }         
@@ -62,9 +60,8 @@ public class ClienteDAO implements BaseDAO{
             System.out.println("Opened database successfully"); 
             stmt    = c.createStatement();
             rs      = stmt.executeQuery(query);
-            rs.close();
-            stmt.close();
-            c.close();     
+            // fechando tudo
+            rs.close(); stmt.close(); c.close();     
         }catch (SQLException e) {
           System.err.println("meu erro "+e.getClass().getName() + ": " + e.getMessage()); /*socorro*/           
         }
@@ -72,9 +69,22 @@ public class ClienteDAO implements BaseDAO{
 
     @Override
     public void update(Object velho,Object novo) {
-     String comeco_query=prepareUpdate(novo);
-     String fim_query=prepareCondition(velho);
-        System.out.println(comeco_query+fim_query);
+        String comeco_query=prepareUpdate(novo);
+        String fim_query=prepareCondition(velho);
+        String query =comeco_query+fim_query;
+        Connection c    ;
+        Statement stmt  ;
+        ResultSet rs    ;
+        try{
+            c       = DriverManager.getConnection("jdbc:postgresql://localhost:5432/autopecas","postgres","aluno");   
+            System.out.println("Opened database successfully"); 
+            stmt    = c.createStatement();
+            rs      = stmt.executeQuery(query);
+            //fechando
+            rs.close();stmt.close();c.close();     
+        }catch (SQLException e) {
+          System.err.println("meu erro "+e.getClass().getName() + ": " + e.getMessage()); /*socorro*/           
+        }
     }
 
     @Override
@@ -82,7 +92,7 @@ public class ClienteDAO implements BaseDAO{
      
     }
     
-/**
+    /**
  * 
  * @param obj
  * @return  uma String com uma query para inserir no banco de dados
@@ -113,6 +123,9 @@ public class ClienteDAO implements BaseDAO{
         insert_query =  insert_query +"'"+ref+"' );" ;
         return insert_query;     
     }
+    
+    /*funções próprias*/
+    
     
     /**
      * 
@@ -155,13 +168,17 @@ public class ClienteDAO implements BaseDAO{
         DiretorCliente diretorcliente = new DiretorCliente(d1,d2, d3, validador, email, senha, logradouro, cep, numero, complemento, ref, nome, dia, mes, ano);
         return (Object)diretorcliente.getBuildercliente().getCliente();        
     }
-    
+    /**
+     * 
+     * @param obj
+     * @return primeira parte do UPDATE
+     */
     private String prepareCondition(Object obj){
         String condition = "WHERE";
         Cliente cliente = (Cliente)obj;
         String cpf          = String.valueOf(cliente.getCpf().getD1())+String.valueOf(cliente.getCpf().getD2())+String.valueOf(cliente.getCpf().getD3())+String.valueOf(cliente.getCpf().getValidador());
         String nome         = cliente.getNomeCompleto();
-        String nasc         = String.valueOf(cliente.getNascimento());
+        String nasc= cliente.getNascimento().transform(cliente.getNascimento());
         String email        = cliente.getUser().getEmail();
         String senha        = cliente.getUser().getSenha();
         String logradouro   = cliente.getEndereco().getLogradouro();
@@ -169,25 +186,30 @@ public class ClienteDAO implements BaseDAO{
         String numero       = cliente.getEndereco().getNumero();
         String complemento  = cliente.getEndereco().getComplemento();
         String ref          = cliente.getEndereco().getReferencia();
-        condition= condition + " cpf='"+ cpf +"',";
-        condition= condition + " nome='"+ nome +"',";
-        condition= condition + " nascimneto='"+ nasc +"',";
-        condition= condition + " email='"+ email +"',";
-        condition= condition + " senha='"+ senha +"',";
-        condition= condition + " logradouro='"+ logradouro +"',";
-        condition= condition + " cep='"+ cep +"',";
-        condition= condition + " numero='"+ numero +"',";
-        condition= condition + " complemento='"+ complemento +"',";
+        condition= condition + " cpf='"+ cpf +"' and ";
+        condition= condition + " nome='"+ nome +"' and ";
+        condition= condition + " nascimento='"+ nasc +"' and ";
+        condition= condition + " email='"+ email +"' and ";
+        condition= condition + " senha='"+ senha +"' and ";
+        condition= condition + " logradouro='"+ logradouro +"' and ";
+        condition= condition + " cep='"+ cep +"' and ";
+        condition= condition + " numero='"+ numero +"' and ";
+        condition= condition + " complemento='"+ complemento +"' and ";
         condition= condition + "referencia='"+ ref +"';";
         
         return condition;        
     }
+    /**
+     * 
+     * @param obj
+     * @return final do UPDATE
+     */
     private String prepareUpdate(Object obj){
         Cliente cliente= (Cliente)obj;
         String update="UPDATE cliente SET ";
         String cpf          = String.valueOf(cliente.getCpf().getD1())+String.valueOf(cliente.getCpf().getD2())+String.valueOf(cliente.getCpf().getD3())+String.valueOf(cliente.getCpf().getValidador());
         String nome         = cliente.getNomeCompleto();
-        String nasc         = String.valueOf(cliente.getNascimento());
+        String nasc= cliente.getNascimento().transform(cliente.getNascimento());
         String email        = cliente.getUser().getEmail();
         String senha        = cliente.getUser().getSenha();
         String logradouro   = cliente.getEndereco().getLogradouro();
@@ -197,14 +219,14 @@ public class ClienteDAO implements BaseDAO{
         String ref          = cliente.getEndereco().getReferencia();
         update = update + " cpf='"+ cpf +"',";
         update = update + " nome='"+ nome +"',";
-        update = update + " nascimneto='"+ nasc +"',";
+        update = update + " nascimento='"+ nasc +"',";
         update = update + " email='"+ email +"',";
         update = update + " senha='"+ senha +"',";
         update = update + " logradouro='"+ logradouro +"',";
         update = update + " cep='"+ cep +"',";
         update = update + " numero='"+ numero +"',";
         update = update + " complemento='"+ complemento +"',";
-        update = update + "referencia='"+ ref +"' ";
+        update = update + " referencia='"+ ref +"' ";
         return update;        
     }
 }
