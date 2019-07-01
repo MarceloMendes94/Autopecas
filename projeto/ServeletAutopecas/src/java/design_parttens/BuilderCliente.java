@@ -2,14 +2,16 @@ package design_parttens;
 
 import LN.Cliente;
 import LN.Cpf;
+import LN.Data;
 import LN.Endereco;
 import LN.Usuario;
 import java.util.Calendar;
-import java.util.Date;
+
 
 public class BuilderCliente {
     private Cpf cpf;
     private Usuario user;
+    private Data nascimento;
     private Endereco endereco;
     private Cliente cliente;
     //receita
@@ -22,7 +24,11 @@ public class BuilderCliente {
     public void criarEndereco(String logradouro, int cep, String numero, String complemento, String referencia){
         this.endereco= new Endereco(logradouro, cep, numero, complemento, referencia);
     }
-    public void criarCliente(Calendar nascimento, String nomeCompleto){
+    public void criarData(int dia, int mes, int ano) {
+        this.nascimento= new Data(dia, mes, ano);
+    }
+    
+    public void criarCliente( String nomeCompleto){
         this.cliente = new Cliente(endereco, nascimento, nomeCompleto, cpf, user);
     }
     //getters
