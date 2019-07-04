@@ -1,0 +1,18 @@
+body{
+    background-color:#fdfdfc;
+}
+#search_box{
+    width: 60%;
+}
+#usuario{
+    font-size: 35px;
+    margin-left: 25px;
+}
+#carrinho{
+    font-size: 35px;
+    margin-left: 10px;
+}
+#sair{
+    font-size: 35px;
+    margin-left: 10px;
+}
