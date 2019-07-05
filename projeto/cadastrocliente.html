@@ -1,75 +1,108 @@
 <!doctype html>
 <html lang="pt">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- font awsome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--CSS desta pagina-->
-    <link rel="stylesheet" href="style/login.css">
-    <title> bem-vindo</title>
-  </head>
-  <body>
-    <br>
-    <div id="conatiner">
-      <div id="row">
-        <div class="col-4 offset-md-4" >
-            <div class="card">
-                <div class="card-body">
-                    <p>                   
-                    <br>
-                    <h4>Informações pessoais</h4>
-                    <input type="text" class="form-control" placeholder="Nome completo"       name="nome">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Cpf"                 name="cpf" >
-                    <br>
-                    <input type="text" class="form-control" placeholder="Data de Nascimento"  name="data" >
-                    <br>
-                    <h4>Informações de entrega</h4>
-                    <input type="text" class="form-control" placeholder="Logradouro"          name="logradouro">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Cep"                 name="cep">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Número"              name="num">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Complemento"         name="complemento">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Ponto de referência" name="ref'">
-                    <br>
-                    <h4>Informações de pagamento</h4>
-                    <input type="text" class="form-control" placeholder="Nome do Titular"     name="titula">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Número"              name="numcartao">
-                    <br>
-                    <input type="password" class="form-control" placeholder="codigo de segurança" name="codigo_segurança">
-                    <br>
-                    <input type="text" class="form-control" placeholder="Bandeira"            name="bandeira">
-                    <br>
-                    <h4>Informações de conta</h4>
-                    <input type="email" class="form-control"    placeholder="Email"           name="email">
-                    <br>
-                    <input type="password" class="form-control" placeholder="Senha"           name="senha1">
-                    <br>
-                    <input type="password" class="form-control" placeholder="Confirmar senha" name="senha2">
-                    <br>
-                    <button type="button" class="btn btn-info">Login</button>
-                    </p>
-                </div>
-            </div>   
+  <!-- font awsome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--CSS desta pagina-->
+  <link rel="stylesheet" href="style/login.css">
+  <title> bem-vindo</title>
+  <script src="js/api.js"></script>
+  <script src="js/jwt-decode.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/guard.js"></script>
+</head>
+
+<body>
+  <br>
+  <div id="conatiner">
+    <div id="row">
+      <div class="col-4 offset-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p>
+              <br>
+              <h4>Informações pessoais</h4>
+              <input type="text" class="form-control" placeholder="Nome completo" id="nome">
+              <br>
+              <input type="text" class="form-control" placeholder="Cpf" id="cpf">
+              <br>
+              <input type="text" class="form-control" placeholder="Data de Nascimento" id="data">
+              <br>
+              <h4>Informações de entrega</h4>
+              <input type="text" class="form-control" placeholder="Logradouro" id="logradouro">
+              <br>
+              <input type="text" class="form-control" placeholder="Cep" id="cep">
+              <br>
+              <input type="text" class="form-control" placeholder="Número" id="num">
+              <br>
+              <input type="text" class="form-control" placeholder="Complemento" id="complemento">
+              <br>
+              <input type="text" class="form-control" placeholder="Ponto de referência" id="ref'">
+              <br>
+              <h4>Informações de pagamento</h4>
+              <input type="text" class="form-control" placeholder="Nome do Titular" id="titula">
+              <br>
+              <input type="text" class="form-control" placeholder="Número" id="numcartao">
+              <br>
+              <input type="password" class="form-control" placeholder="codigo de segurança" id="codigo_segurança">
+              <br>
+              <input type="text" class="form-control" placeholder="Bandeira" id="bandeira">
+              <br>
+              <h4>Informações de conta</h4>
+              <input type="email" class="form-control" placeholder="Email" id="email">
+              <br>
+              <input type="password" class="form-control" placeholder="Senha" id="senha1">
+              <br>
+              <input type="password" class="form-control" placeholder="Confirmar senha" id="senha2">
+              <br>
+              <button type="button" class="btn btn-info" onclick="cadastrar()">Cadastrar</button>
+            </p>
+          </div>
         </div>
       </div>
-      <br>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <br>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    function cadastrar() {
+      let singupObj = {
+        "nome": document.getElementById('nome').value,
+        "email": document.getElementById('email').value,
+        "senha": document.getElementById('senha1').value,
+        "cpf": document.getElementById('cpf').value,
+        "nascimento": document.getElementById('data').value
+      };
+      api.signup(singupObj).then(
+        function() {
+          location.pathname = 'login.html';
+        },
+        function(err) {
+          alert(err.message || 'Erro inesperado!');
+        }
+      );
+    }
+  </script>
+</body>
+
 </html>

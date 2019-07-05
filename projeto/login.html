@@ -14,6 +14,10 @@
     <!--CSS desta pagina-->
     <link rel="stylesheet" href="style/login.css">
     <title> bem-vindo</title>
+    <script src="js/api.js"></script>
+    <script src="js/jwt-decode.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/guard.js"></script>
   </head>
   <body>
     <br>
@@ -24,12 +28,14 @@
                 <div class="card-body">
                     <p>
                     <br>                    
-                    <input type="email" class="form-control" id="search_box" placeholder="Entre com seu email cadastrado">
+                    <input type="email" class="form-control" id="email" placeholder="Entre com seu email cadastrado">
                     <br>
-                    <input type="password" class="form-control" id="search_box" placeholder="Senha">
+                    <input type="password" class="form-control" id="password" placeholder="Senha">
                     <br>
-                    <a href="cadatrocliente.html">Não possui conta</a><br><br><br>
-                    <button type="button" class="btn btn-info">Login</button>
+                    <p id="loginError" class="text-danger"></p>
+                    <br>
+                    <a href="cadastrocliente.html">Não possui conta</a><br><br><br>
+                    <button type="button" class="btn btn-info" onclick="login()">Login</button>
                     </p>
                 </div>
             </div>   

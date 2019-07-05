@@ -1,39 +1,90 @@
 <!doctype html>
 <html lang="pt">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- font awsome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--CSS desta pagina-->
-    <link rel="stylesheet" href="style/index.css">
-    <title> bem-vindo</title>
-  </head>
-  <body>
+  <!-- font awsome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--CSS desta pagina-->
+  <link rel="stylesheet" href="style/index.css">
+  <title> bem-vindo</title>
+  <script src="js/api.js"></script>
+  <script src="js/jwt-decode.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/guard.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+</head>
+
+<body>
+  <br>
+  <div id="conatiner">
+    <div id="row">
+      <div class="col-8 offset-md-3">
+        <form class="form-inline">
+          <input type="text" class="form-control" id="search_box" placeholder="Pesquise aqui">
+          <i class="fa fa-user" id="usuario"></i>
+          <i class="fa fa-shopping-cart" id="carrinho"></i>
+          <i class="fa fa-sign-out" id="sair" onclick="logout()"></i>
+        </form>
+      </div>
+    </div>
     <br>
-    <div id="conatiner">
-      <div id="row">
-        <div class="col-8 offset-md-3" >
-          <form class="form-inline">
-            <input type="text" class="form-control" id="search_box" placeholder="Pesquise aqui">
-            <i class="fa fa-user"           id="usuario" ></i>
-            <i class="fa fa-shopping-cart"  id="carrinho"></i>
-            <i class="fa fa-sign-out"       id="sair"></i>
-          </form> 
+    <div class="row" id="app">
+      <div class="col text-center" v-if="produtos.length === 0">
+        <p class="text-info" >Nenhum produto cadastrado</p>
+      </div>
+      <div class="col-sm-12 col-md-4" v-for="produto in produtos">
+        <div class="card" style="margin: 0 15px">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
+            <title>{Placeholder}</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect><text x="35%" y="50%" fill="#dee2e6" dy=".3em">Sem
+              imagem</text>
+          </svg>
+          <div class="card-body">
+            <h5 class="card-title">{{produto.numeroPeca}}</h5>
+            <p class="card-text">Produto numero {{produto.numeroPeca}}.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
         </div>
       </div>
-      <br>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    api.produtos().then(
+      function (produtos) {
+        var app = new Vue({
+          el: '#app',
+          data: {
+            produtos: produtos
+          }
+        });
+      },
+      function (err) {
+        alert(err.message);
+      }
+    )
+  </script>
+</body>
+
 </html>
